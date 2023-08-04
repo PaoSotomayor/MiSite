@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 #cabeceralogo {
     display: flex;
     justify-content: center;
@@ -15,13 +16,17 @@
 #cabeceralogo>div {
     flex: 1;
     max-width: 1366px;
-    padding-top: 45px;
+    padding-top: 25px;
     background-image: url(resources/images/fondo-header2.jpeg);
 }
 
 #cabeceralogo h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #c1daf1;
+    margin: 3px;
+    padding: 12px;
+    margin-bottom: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: #dbeaf9;
 }
 
 #menuprincipal {
@@ -31,7 +36,7 @@
     height: 50px;
     padding: 0% 2%;
     background-color: #9FC8D9;
-    border-top: 1px solid #094660;
+    border-top: 1px solid #060606;
     border-bottom: 1px solid #094660;
 }
 
@@ -52,6 +57,10 @@
 
 }
 
+#menuprincipal a:hover {
+    color: #dddede;
+
+}
 
 #menuprincipal a {
     font: bold 18px Arial, sans-serif;
@@ -70,7 +79,7 @@ main {
 main>div {
     display: flex;
     flex: 1;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 #articulosprincipales {
@@ -83,10 +92,12 @@ main>div {
 
 #articulosprincipales h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
 }
 
 #infoadicional {
-    width: 280px;
+    align-content: center;
+    width: 300px;
     padding: 20px;
     background-color: #E7F1F5;
     border-radius: 10px;
@@ -102,6 +113,7 @@ main>div {
 
 #infoadicional p {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 article {
@@ -161,6 +173,8 @@ figure img {
     width: 96%;
     padding: 2%;
     background-color: #0F76A0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f5268;
 }
 
 #pielogo>div {
@@ -177,7 +191,8 @@ figure img {
 }
 
 .seccionpie h1 {
-    font: bold 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f5268;
 }
 
 .seccionpie p {
@@ -188,4 +203,9 @@ figure img {
     font: bold 16px Arial, sans-serif;
     color: #666666;
     text-decoration: none;
+}
+
+
+.tx1 {
+    font-size: medium;
 }
